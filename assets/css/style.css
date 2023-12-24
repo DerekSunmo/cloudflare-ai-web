@@ -1,3 +1,12 @@
+html {
+  overflow-y: hidden;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+
 html, body {
     @apply h-full
 }
