@@ -429,6 +429,15 @@ function handleDelete(id: number) {
 </template>
 
 <style scoped>
+html {
+  overflow-y: hidden;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+
 #send {
   max-width: 80%;
   @apply self-end break-words bg-green-500 text-white rounded-xl p-2
