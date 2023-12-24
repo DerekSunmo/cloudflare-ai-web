@@ -429,12 +429,9 @@ function handleDelete(id: number) {
 </template>
 
 <style scoped>
-html {
-  overflow-y: hidden;
-}
 
-body {
-  overflow-y: hidden;
+::-webkit-scrollbar {
+  display: none;
 }
 
 
